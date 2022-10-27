@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Harystep/HRTextTool.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Model/**/*.{h,m}"
+  spec.source_files  = "Model/*.{h,m}"
 
   spec.exclude_files = "Classes/Exclude"
 
